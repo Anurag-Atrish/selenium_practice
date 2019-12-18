@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite99]">
+  <test name="Test99(failed)">
+    <classes>
+      <class name="com.acc.selenium_demo_practice.Selenium_demo">
+        <methods>
+          <include name="close_browser"/>
+          <include name="registration"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- com.acc.selenium_demo_practice.Selenium_demo -->
+      <class name="com.acc.selenium_demo_practice.selenium_demo_day2">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="beforemethod"/>
+          <include name="close_browser"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.acc.selenium_demo_practice.selenium_demo_day2 -->
+      <class name="com.acc.selenium_demo_practice.TestNG_demo1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.acc.selenium_demo_practice.TestNG_demo1 -->
+    </classes>
+  </test> <!-- Test99(failed) -->
+</suite> <!-- Failed suite [Suite99] -->
